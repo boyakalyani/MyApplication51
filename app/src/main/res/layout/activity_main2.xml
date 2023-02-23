@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity2">
+    <ImageView
+        android:id="@+id/img2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/opr2"
+        />
+    <TextView
+        android:id="@+id/text21_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stay connected"
+        android:layout_below="@+id/img2_id"
+        android:layout_marginTop="50dp"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/text2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stay connected with your team members while working from home"
+        android:layout_below="@+id/text21_id"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/btn2"
+        android:layout_below="@+id/text2_id"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/boxshape1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:textSize="23dp"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>

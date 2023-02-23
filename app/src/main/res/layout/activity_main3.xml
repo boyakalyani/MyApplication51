@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity3">
+    <ImageView
+        android:id="@+id/img1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/opr3"/>
+    <TextView
+        android:id="@+id/text1_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keep projects on track"
+        android:layout_below="@+id/img1_id"
+        android:layout_marginTop="30dp"
+        android:textAppearance="@style/TextAppearance.Material3.HeadlineLarge"
+        android:textStyle="bold"
+        android:textColor="?android:attr/statusBarColor"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/text2_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get with your things done with wose, work better together with your dreams"
+        android:layout_below="@+id/text1_id"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_green_light"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/btn3"
+        android:layout_below="@+id/text2_id"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/boxshape1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:textSize="23dp"
+        android:layout_alignParentEnd="true"
+        />
+
+</RelativeLayout>
